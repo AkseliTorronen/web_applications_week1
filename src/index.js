@@ -3,7 +3,7 @@ import "./styles.css";
 if (document.readyState !== "loading") {
   initialize_code();
 } else {
-  document.addEventListener("DOMConentLoaded", function () {
+  document.addEventListener("DOMContentLoaded", function () {
     initialize_code();
   });
 }
