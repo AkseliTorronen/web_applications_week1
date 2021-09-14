@@ -8,8 +8,8 @@ if (document.readyState !== "loading") {
   });
 }
 function initialize_code() {
-  const add_comment_button = document.getElementById("add-comment");
-  const remove_comments_button = document.getElementById("remove-comments");
+  const add_comment_button = document.getElementById("#add-comment");
+  const remove_comments_button = document.getElementById("#remove-comments");
 
   add_comment_button.addEventListener("click", function () {
     const comments = document.getElementById("comment-section");
